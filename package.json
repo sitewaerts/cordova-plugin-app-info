@@ -1,26 +1,33 @@
 {
-  "name": "cordova-plugin-app-version",
-  "version": "0.1.14",
-  "description": "Cordova plugin to return the version number of the current app",
+  "name": "cordova-plugin-app-info",
+  "version": "0.1.0",
+  "description": "Cordova plugin to acces info about currently running app.",
+  "types": "./types/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sampart/cordova-plugin-app-version.git"
+    "url": "git+https://github.com/sitewaerts/cordova-plugin-app-info.git"
   },
   "keywords": [
     "cordova",
     "ecosystem:cordova",
     "app",
-    "version",
-    "appversion",
+    "info",
+    "appinfo",
     "plugin"
   ],
-  "author": "whiteoctober",
+  "author": "schauerte@sitewaerts.de",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sampart/cordova-plugin-app-version/issues"
+    "url": "https://github.com/sitewaerts/cordova-plugin-app-info/issues"
   },
-  "homepage": "https://github.com/sampart/cordova-plugin-app-version#readme"
+  "homepage": "https://github.com/sitewaerts/cordova-plugin-app-info",
+  "devDependencies": {
+    "@types/cordova": "^11.0.3",
+    "@types/web": "^0.0.75",
+    "@types/winjs": "^4.4.1",
+    "@types/winrt-uwp": "^0.0.23"
+  }
 }

@@ -1,0 +1,22 @@
+{
+    "name": "cordova-plugin-app-info-electron",
+    "version": "1.0.0",
+    "description": "Electron Native Support for Cordova App Info Plugin",
+    "main": "index.js",
+    "keywords": [
+        "cordova",
+        "electron",
+        "app-info",
+        "native"
+    ],
+    "author": "sitewaerts GmbH",
+    "license": "Apache-2.0",
+    "dependencies": {},
+    "cordova": {
+        "serviceName": "AppInfo"
+    },
+    "devDependencies": {
+        "@types/electron": "^1.6.10",
+        "@types/node": "^20.8.8"
+    }
+}
