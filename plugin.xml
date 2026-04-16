@@ -4,7 +4,7 @@
     id="cordova-plugin-app-info"
     version="0.1.0">
 
-    <name>AppVersion</name>
+    <name>AppInfo</name>
     <description>
         Access info about currently running app
     </description>
