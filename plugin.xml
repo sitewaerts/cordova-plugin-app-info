@@ -60,6 +60,7 @@
     </platform>
 
 
+    <hook type="before_run" src="hooks/write_app_info_json.js" />
     <hook type="before_build" src="hooks/write_app_info_json.js" />
 
 
