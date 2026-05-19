@@ -1,13 +1,14 @@
 package de.sitewaerts.cordova.plugin.appInfo;
 
-import org.apache.cordova.CordovaPlugin;
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
 import org.apache.cordova.CallbackContext;
+import org.apache.cordova.CordovaPlugin;
 import org.json.JSONArray;
 import org.json.JSONException;
-
-import android.content.pm.ApplicationInfo;
-import android.content.pm.PackageManager.NameNotFoundException;
-import android.content.pm.PackageManager;
+import org.json.JSONObject;
 
 public class AppInfoPlugin extends CordovaPlugin {
     @Override

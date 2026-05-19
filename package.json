@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-app-info",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Cordova plugin to acces info about currently running app.",
   "types": "./types/index.d.ts",
   "scripts": {
